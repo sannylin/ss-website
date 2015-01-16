@@ -1,0 +1,73 @@
+<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+?>
+
+<?php include($path.'/head.php'); ?>
+
+	<div id="content">
+
+		<h4>VoiceSpace</h4>
+
+			<div id="profiledetails">
+				<table id="profdetails">
+					<tr>
+						<td class="profiledetails-col">Contacts</td>
+						<td>Pooja Mathur</td>
+					</tr>
+				</table>
+			</div>
+
+		<h1>Publications</h1>
+			<table class="papers">
+				<tr>
+					<td class="link"><a href="http://social.cs.uiuc.edu/papers/pdfs/thesis/pmathur2-thesis.pdf" target="_blank">PDF</a></td>
+					<td>Pooja Mathur Visualizing Remote Voice Conversations: Uses from Artifacts to Archival Master's Thesis. University of Illinois Urbana-Champaign, May 2009.</td>
+				</tr>
+				<tr>
+					<td class="link"><a href="http://social.cs.uiuc.edu/papers/pdfs/mathur_chi2009_wip_audio.pdf" target="_blank">PDF</a></td>
+					<td>Pooja Mathur and Karrie Karahalios Visualizing Remote Voice Conversations Work In Progress, CHI 2009.</td>
+				</tr>
+			</table>
+
+		<h1>Abstract</h1>
+			<p>People hold large amounts of personal content on their computers. This digital content takes the form of videos such as family events, photographs from vacations, instant message chat logs and voice over internet protocol audio chat logs just to name a few. This personal digital content can function as a chronicle of one�s life. It allows people to also look back and reminisce about past events. However, audio logs are not ideal. One is restricted by the amount of time available to listen to the logs. Visualizing audio conversations, though, can enable one to use audio logs to a greater magnitude. Here we discuss how visualizing audio content from remote conversations can be used as an artifact of the conversation and have uses in archival as well. We created a system to study how users react to visualizing audio for these purposes and discuss the results of those studies.</p>
+
+		<h1>Background</h1>
+			<p>
+				<img src="voicespace/content003.png" class="half left">
+				Over time, communities went from strictly oral ones to literate ones. The process of seeing words can further ingraine those words into one's mind. Since audio is ephemeral, if one cannot remember what was said, then the existence of a conversation comes into question. However, the written word changes that. Over time the written word has transformed from a pictographic nature to its current form as an alphabet or syllabary (in many cases). Conversation has evolved in a sense too. There are many aspects of conversation, one aspects of which involve the setting of the conversation. Conversations now can take place between two people almost anywhere around the world. This is possible through Voice over Internet Protocol. Now, with the capabilities of computers we created three visualizations to see if we can make conversations held over VoIP to be easily archived and also be used as artifacts.</p>
+
+		<h1>Methods</h1>
+			<p>
+				<img src="voicespace/history001.png" class="half right">
+				One visualization displays the content of the conversation. With a speech recognition program running in the background the words that are recognized are sent to the visualization. The next visualization visualizes the history of the conversation by taking into account the volume of the participants at various points. The third visualization maps one's pitch to one's volume and displays that information. We tested our visualizations by performing user studies. There were three sessions held for each group of users. The first session contained a control conversation without the visualizations and then one conversation with the visualizations. The second and third visualization only had a conversation with the visualizations. We also ased the users to fill out a pre-study and post-study surveys. We used these surveys to get a better understanding of what our users were thought of online communication and our visualizations.
+			</p>
+
+		<h1>Results</h1>
+			<p>
+				<img src="voicespace/pitch003.png" class="half left">
+				After performing the user studies we found that the participants did find the content visualization useful for archival. We had the users note conversation topics during the first two sessions by looking at screenshots of the visualizations after the first two sessions. Then after the third session we asked the users to go back and look at those same screenshots and try to once again pull out the conversation topics. The participants were able to do so. We also asked the participants whether or not the visualizations had qualities of an artifact. The users agreed that the visualizations were evocative. They did feel that the visualizations could be used as artifacts. We also had some interesting notes for future implementations however. One of our biggest criticisms was the the speech recognition was not perfect. That caused some of our participants to dislike what was being displayed since it was not all real. Any future work will have to contain a better method for speech recognition.</p>
+
+		<h1>Gallery</h1>
+			<p>
+				<img src="voicespace/content002.png" class="gallery left">
+				<img src="voicespace/content004.png" class="gallery right">
+				<img src="voicespace/content005.png" class="gallery left">
+				<img src="voicespace/content006.png" class="gallery right">
+				<img src="voicespace/content007.png" class="gallery left">
+				<img src="voicespace/content008.png" class="gallery right">
+				<img src="voicespace/content009.png" class="gallery left">
+				<img src="voicespace/content010.png" class="gallery right">
+				<img src="voicespace/history002.png" class="gallery left">
+				<img src="voicespace/history003.png" class="gallery right">
+				<img src="voicespace/history004.png" class="gallery left">
+				<img src="voicespace/history005.png" class="gallery right">
+				<img src="voicespace/pitch001.png" class="gallery left">
+				<img src="voicespace/pitch002.png" class="gallery right">
+				<img src="voicespace/pitch004.png" class="gallery left">
+				<img src="voicespace/pitch005.png" class="gallery right">
+			</p>
+	</div>
+
+</body>
+</div>

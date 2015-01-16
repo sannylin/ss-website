@@ -1,0 +1,345 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+@font-face{
+	font-family: "Avenir";
+	font-weight: normal;
+	src: url("assets/fonts/AvenirLTStd-Book.ttf");
+}
+
+@font-face{
+	font-family: "Avenir";
+	font-weight: bold;
+	src: url("assets/fonts/AvenirLTStd-Heavy.ttf");
+}
+
+@font-face{
+	font-family: "Avenir";
+	font-weight: 100;
+	src: url("assets/fonts/AvenirLTStd-Light.ttf");
+}
+
+@font-face{
+	font-family: "Avenir";
+	font-weight: normal;
+	font-style: italic;
+	src: url("assets/fonts/AvenirLTStd-BookOblique.ttf");
+}
+
+@font-face{
+	font-family: "Avenir";
+	font-weight: bold;
+	font-style: italic;
+	src: url("assets/fonts/AvenirLTStd-HeavyOblique.ttf");
+}
+
+@font-face{
+	font-family: "Avenir";
+	font-weight: 100;
+	font-style: italic;
+	src: url("assets/fonts/AvenirLTStd-LightOblique.ttf");
+}
+
+@font-face{
+	font-family: "Monaco";
+	src: url("assets/fonts/Monaco.ttf");
+}
+
+
+html, body{
+	padding-bottom: 50px;
+	min-width: 920px;
+	background-color: hsl(0,0,3);
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover, a:active{
+	color: orange;
+}
+
+#navigation{
+	width: 240px;
+	float: left;
+	font-family: "Avenir", Arial, sans-serif;
+	font-weight: 100;
+}
+
+#navigation ul{
+	padding-top: 20px;
+	font-size: 0.9em;
+	line-height: 2em;
+	padding-left: 24px;
+	color: #333;
+}
+
+#content{
+	font-family: "Avenir", Arial, sans-serif;
+	color: #333;
+	font-size: 0.9em;
+	padding-top: 180px;
+	width: 680px;
+	float: left;
+}
+
+#content li{
+	color: #333;
+	font-size: 0.9em;
+	margin-left: 100px;
+	line-height: 1.5em;
+}
+
+#content li:before{
+	content: "\2192";
+	font-size: 0.8em;
+ 	display: inline-block;
+ 	color: #c0c0c0;
+ 	padding-right: 1em;
+}
+
+
+h1{
+	color: rgb(101, 86, 67);
+	font-size: 0.9em;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 12px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+h1.first{
+	margin-top:0;
+}
+
+h2{
+	color: #555;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+h2.profilename{
+	padding-top: 7px;
+}
+
+h3{
+	color: #999;
+	font-size: 0.9em;
+}
+
+h4{
+	margin-top: 5px;
+	font-size: 3.5em;
+	font-weight: bold;
+	color: rgb(191,77,40);
+	line-height: 1em;
+}
+
+p{
+	margin-left: 100px;
+	line-height: 1.3em;
+	padding-bottom: 1em;
+}
+
+p img{
+	width: 100%;
+}
+
+p img.half{
+	width: 45%;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+p img.half.left{
+	float: left;
+	padding-right: 20px;
+}
+
+p img.half.right{
+	float: right;
+	padding-left: 20px;
+}
+
+p img.gallery{
+	width: 49%;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+p img.gallery.left{
+	float: left;
+}
+
+p img.gallery.right{
+	float: right;
+}
+
+table{
+	margin-left: 100px;
+	line-height: 1.3em;
+}
+
+table.papers tr{
+	margin-bottom: 1em;
+	margin-left: -25px;
+	display: block;
+}
+
+table.twocol{
+	margin-left: 50px;
+	line-height: 1.3em;
+}
+
+table#profdetails{
+	margin:0;
+}
+
+td.profiledetails-col{
+	width: 60px;
+	font-family: "Monaco", "Lucida Console", Courier, monospace;
+	font-size: .75em;
+	color: #c0c0c0;
+	text-align: right;
+	padding-right: 10px;
+}
+
+td.col{
+	font-family: "Monaco", "Lucida Console", Courier, monospace;
+	font-size: .75em;
+	color: #c0c0c0;
+	width: 50px;
+}
+
+td.date{
+	font-family: "Monaco", "Lucida Console", Courier, monospace;
+	font-size: .75em;
+	color: #c0c0c0;
+	width: 50px;
+}
+
+td.link{
+	font-family: "Monaco", "Lucida Console", Courier, monospace;
+	font-size: .75em;
+	color: #c0c0c0;
+	width: 50px;
+	text-align: right;
+	margin-bottom: 1em;
+	padding-right: 25px;
+}
+
+/*
+td.link a:link, td.link a:visited{
+	color: #c0c0c0;
+}
+
+td.link a:hover, td.link a:active{
+	color: orange;
+}
+*/
+
+.profiles{
+	margin-left: 100px;
+	display: inline-block;
+}
+
+.profiles:after{
+	clear: both;
+}
+
+.profile{
+	width: 280px;
+	height: 120px;
+	float: left;
+	margin-bottom: 12px;
+}
+
+.profile img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.profile img.faculty{
+	border: 3px solid rgb(191,77,40);
+}
+
+.profile img.masters{
+	border: 3px solid rgb(128,188,163);
+}
+
+.profile img.phd{
+	border: 3px solid rgb(114,97,110);
+}
+
+.profile img.ug{
+	border: 3px solid rgba(216,49,39,.7);
+}
+
+// reddish rgb(216,49,39);
+// blue rgba(30,59,81,.7);
+
+
+#profilecard{
+	width: 100%;
+	margin-top:0;
+}
+
+#profilemain{
+	width: 100%;
+}
+
+#profilepic{
+	padding-left: 150px;
+	margin-right: 5px;
+	width: 200px;
+	display: inline-block;
+}
+
+#profilename{
+	display: inline-block;
+	width: 320px;
+}
+
+#profiledetails{
+	margin-top: 10px;
+	margin-left: 360px;
+}
+
+.projects{
+	min-height:120px;
+	margin-left: 100px;
+	margin-top:20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.projects img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+	border: 3px solid rgba(101,86,67, 0.4);
+}
+
+.projects h3{
+	padding-bottom: 1em;
+}
+
+.projects p{
+	margin-left: 125px;
+}
+
+.last{
+	border-bottom: 0;
+	padding-bottom: 0;
+}

@@ -1,0 +1,142 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AvenirLTStd-Book
+FamilyName:Avenir LT Std
+StyleName:45 Book
+MenuName:Avenir LT Std 45 Book
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Avenir LT Std 45 Book
+WritingScript:Roman
+OutlineFileName:\AvenirLTStd-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28288
+FileModTime:1188203360
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AvenirLTStd-Heavy
+FamilyName:Avenir LT Std
+StyleName:85 Heavy
+MenuName:Avenir LT Std 55 Roman
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Avenir LT Std 85 Heavy
+WritingScript:Roman
+OutlineFileName:\AvenirLTStd-Heavy.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28508
+FileModTime:1188203360
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AvenirLTStd-Light
+FamilyName:Avenir LT Std
+StyleName:35 Light
+MenuName:Avenir LT Std 35 Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Avenir LT Std 35 Light
+WritingScript:Roman
+OutlineFileName:\AvenirLTStd-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:28084
+FileModTime:1188203360
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Blanch-Caps
+FamilyName:Blanch
+StyleName:Caps
+MenuName:Blanch Caps
+StyleBits:0
+WeightClass:410
+WidthClass:5
+AngleClass:0
+FullName:Blanch Caps
+WritingScript:Roman
+OutlineFileName:\BLANCH_CAPS.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:25528
+FileModTime:1334771962
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Calluna-Regular
+FamilyName:Calluna
+StyleName:Regular
+MenuName:Calluna
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Calluna
+WritingScript:Roman
+OutlineFileName:\Calluna-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:98708
+FileModTime:1248231206
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Monaco
+FamilyName:Monaco
+StyleName:Regular
+MenuName:Monaco
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Monaco
+WritingScript:Roman
+OutlineFileName:\Monaco.dfont
+DataFormat:sfntResource
+ResourceID:12468
+FileLength:559995
+FileModTime:1274389860
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Monaco
+OutlineFileName:\Monaco.dfont
+ResourceID:4
+MacStyle:0
+FileLength:559995
+FileModTime:1274389860
+%EndFont
+

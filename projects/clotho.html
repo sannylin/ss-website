@@ -1,0 +1,44 @@
+<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+?>
+
+<?php include($path.'/head.php'); ?>
+
+	<div id="content">
+
+		<h4>The Clotho Project: Predicting Application Utility</h4>
+
+			<div id="profiledetails">
+				<table id="profdetails">
+					<tr>
+						<td class="profiledetails-col">Contacts</td>
+						<td><a href="/people/joshuahailpern.html">Joshua Hailpern</a></td>
+					</tr>
+				</table>
+			</div>
+
+		<h1>Publications</h1>
+			<table class="papers">
+				<tr>
+					<td class="link"><a href="http://social.cs.uiuc.edu/papers/pdfs/hailpern-dis10.pdf" target="_blank">PDF</a></td>
+					<td>Joshua Hailpern, Nicholas Jitkoff, Joseph Subida, and Karrie Karahalios. The CLOTHO Project: Predicting Application Utility. DIS 2010.</td>
+				</tr>
+			</table>
+
+		<h1>Abstract</h1>
+			<p>When using the computer, each user has some notion that "these applications are important" at a given point in time. We term this subset of applications that the user values as high-utility applications. Identifying high-utility applications is a critical first step for Task Analysis, Time Management/Workflow analysis, and Interruption research. However, existing techniques fail to identify at least 57% of these applications. Our work directly associates measurable computer interaction (CPU consumption, window area, etc.) with the user’s perceived application utility without identifying task. In this paper, we present an objective utility function that accurately predicts the user’s subjective impressions of application importance, improving existing techniques by 53%. This model of computer usage is based upon 321 hours of real-world data from 22 users (both professional and academic). Unlike existing approaches, our model is not limited by a pre-existing set of applications or known tasks. We conclude with a discussion of the direct implications for improving accuracy in the fields of interruptions, task analysis, and time management systems.</p>
+
+		<h1>Methods</h1>
+			<p>We recruited 36 users to participate in a week-long (5 day), real-world, data collection process. Of the 36 users, 22 (61%) agreed to participate, completed the process, and returned data. Our goal was to link artifacts of computer usage with perceived application utility at a given point in time. To achieve this, we designed, built, and distributed the CLOTHO (Computer Logistical Operations and Temporal Human Observation) system. CLOTHO allowed us to collect computer resource allocation and UI interactions (predictive variables), and link them with human generated data (dependent variable). We can then make predictive models using our sets of predictive and dependent measures. Using CLOTHO, we collected 321 hours of computer and human data over a total of 126 user-days (resulting in 2,294 sets of data points). CLOTHO was built in Cocoa and run on Apple Macintoshes with OS X 10.5+.</p>
+
+		<h1>Results</h1>
+			<p>The mean number of high-utility applications across all users was 1.69. When examined as a set of tabulated frequencies, it is apparent that 35.62% of the time, users had more than one high utility application. Thus, if a binary feature could perfectly divine application utility (e.g., which application has focus), it will fail to predict all of the high-utility applications 35.62% of the time, because only one application can have focus at any given moment.</p>
+
+			<p>Our results show that with a relatively low-cost Decision Tree model, we can build an accurate application utility function (66% of actual user-specified high-utility applications are predicted as being high-utility by the model). More importantly, this is a 53% increase over the current method for predicting high application utility (p < 0.01). Based on the sensitivity of the using application focus, the existing approach as a 57% failure rate. In other words, the accuracy of the generated predictive models demonstrates a strong potential for computerized systems to accurately predict high-utility applications. With such an increase in predictiveness, the ability of other fields of HCI and Computer Science to accurately predict Interruption time, Task, Workflow, and Time Management is also increased.</p>
+
+		<h1>Downloads</h1>
+
+	</div>
+
+</body>
+</div>

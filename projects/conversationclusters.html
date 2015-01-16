@@ -1,0 +1,45 @@
+<?php
+	$path = $_SERVER['DOCUMENT_ROOT'];
+?>
+
+<?php include($path.'/head.php'); ?>
+
+	<div id="content">
+
+		<h4>Conversation Clusters</h4>
+
+			<div id="profiledetails">
+				<table id="profdetails">
+					<tr>
+						<td class="profiledetails-col">Contacts</td>
+						<td><a href="/people/tonybergstrom.html">Tony Bergstrom</a></td>
+					</tr>
+				</table>
+			</div>
+
+		<h1>Publications</h1>
+			<table class="papers">
+				<tr>
+					<td class="link"><a href="http://social.cs.uiuc.edu/projects/papers/pdfs/bergstrom-clusters-chi09.pdf" target="_blank">PDF</a></td>
+					<td>Tony Bergstrom and Karrie Karahalios. Conversation Clusters: Grouping Conversation Topics through Human-Computer Dialog CHI 2009.</td>
+				</tr>
+			</table>
+
+		<h1>Abstract</h1>
+			<p>Conversation Clusters attempts to bridge the verbal language barrier by using humans and machines. In the domain of meetings, people understand conversations better than computers. They can infer the context of social situations, humor, sarcasm, body language, etc. Computers provide significant advantages when it comes to tracking history and storing the numerous details of interaction. By combining these strengths, we seek to provide a reliable and intuitive system for archiving and re-accessing conversations.</p>
+
+			<p><img src="http://social.cs.uiuc.edu/images/projects/Utah-clusters.png" class="half">
+			<img src="http://social.cs.uiuc.edu/images/projects/cluster-people.jpg" class="half"></p>
+
+		<h1>Motivations</h1>
+			<p>Many current computational approaches to meeting archival mirror the function of a courtroom stenographer; they document the entire discourse of the event. Searching through these archives requires a lookup of key words, while understanding the entire discourse requires reading the entire record. The lookup problem is made more difficult as automated speech recognition transcripts are not always accurate. We mitigate these effects by mimicking human memory to forget the actual verbal exchange but retain a generalized understanding through the use of key words. By focusing on the ideas conveyed and forgetting some speech, our memories better recall the most recent and relevant moments in conversation.</p>
+
+			<p>The key to making our approach work is combining the strengths of man and machine. The computer has the ability to store large archives; people have the ability to augment their judgment based on the context at hand. We present two archival visualizations implemented to summarize interaction: a topic view and a history view. The topic view serves to see the topics discussed over the course of the meeting while the history view allows the viewer to see how the meeting progressed by mapping the evolution of topics over time.</p>
+
+		<h1>Videos</h1>
+			<p><iframe width="480" height="360" src="//www.youtube.com/embed/bHZ0zKnk0Ck" frameborder="0" allowfullscreen></iframe></p>
+
+	</div>
+
+</body>
+</div>
